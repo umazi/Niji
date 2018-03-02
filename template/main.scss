@@ -1,0 +1,232 @@
+* {
+    background: $mainbg;
+    foreground: $mainfg;
+
+    caret: $caret;
+    lineHighlight: $selection;
+    selection: $selection;
+    selectionBorder: $selection;
+}
+
+
+comment {
+    foreground: $comment;
+    fontStyle: $commentStyle;
+}
+
+
+constant {
+
+    &.numeric {
+        foreground: $cosnt-num;
+    }
+    // boolean, null ...
+    &.language {
+        foreground: $const-lang;
+    }
+    &.character.escape {
+        foreground: $const-esc;
+    }
+    &.other.placeholder {
+        foreground: $const-placeholder;
+    }
+    &.other {
+        foreground: $const-other;
+    }
+
+}
+
+
+variable.other.constant,
+entity.name.constant {
+    foreground: $const-var;
+}
+
+
+entity.name {
+    foreground: $ent-name;
+}
+
+entity.name.class {
+    foreground: $ent-class;
+}
+
+
+entity.name.type {
+    foreground: $ent-type;
+}
+
+entity.other.inherited-class {
+    foreground: $ent-inh-class;
+}
+
+
+entity.name.function {
+    foreground: $ent-function;
+}
+
+
+// markup languages
+entity.name.tag {
+    foreground: $ent-tag;
+}
+
+entity.name.section {
+    foreground: $ent-section;
+}
+
+entity.other.attribute-name {
+    foreground: $ent-attr;
+}
+
+
+invalid {
+    foreground: $invalid;
+
+    // illegal elements
+    &.illegal {
+        background: $illegalbg;
+        foreground: $illegalfg;
+    }
+
+    // deprecated elements
+    &.deprecated {
+        background: $deprecatedbg;
+        foreground: $deprecatedfg;
+    }
+}
+
+
+keyword {
+    foreground: $keyword-fg;
+
+    &.control {
+        foreground: $keyword-control;
+    }
+
+    &.operator {
+        foreground: $keyword-operator;
+    }
+}
+
+
+punctuation.definition {
+    // @font-face {} in CSS 
+    &.keyword {
+        foreground: $punct-keyword;
+    }
+    // 'abcd' or "abcd"
+    &.string {
+        foreground: $punct-string;
+    }
+    // e.g. '$' of $shizuka
+    &.variable {
+        foreground: $punct-var;
+    }
+    &.template-expression {
+        foreground: $punct-exp;
+    }
+}
+
+
+storage {
+    &.type {
+        foreground: $storage-type;
+    }
+    &.modifier {
+        foreground: $storage-modifier;
+    }
+}
+
+
+string.regexp {
+    foreground: $string-regexp;
+}
+
+
+string {
+    foreground: $string-fg;
+
+    &.quoted {
+        foreground: $string-quoted;
+    }
+}
+
+
+// elements provided by a base framework
+support {
+    foreground: $support-fg;
+
+    &.constant {
+        foreground: $support-const;
+    }
+    &.module {
+        foreground: $support-module;
+    }
+    &.function {
+        foreground: $support-function;
+    }
+    &.class {
+        foreground: $support-class;
+    }
+    &.type {
+        foreground: $support-type;
+    }
+}
+
+
+variable {
+    &.parameter {
+        foreground: $var-parameter;
+    }
+    &.function {
+        foreground: $var-function;
+    }
+    &.language {
+        foreground: $var-lang;
+    }
+}
+
+
+meta {
+    &.function-call {
+        &.generic {
+            foreground: $meta-func-call;
+        }
+    }
+}
+
+
+markup.heading {
+    foreground: $mark-head;
+}
+
+markup.list.unnumbered,
+markup.list.numbered {
+    foreground: $mark-list;
+}
+
+markup.bold {
+    foreground: $mark-bold;
+    fontStyle: $boldStyle;
+}
+
+markup.italic {
+    foreground: $mark-italic;
+    fontStyle: $italicStyle;
+}
+
+markup.underline {
+    foreground: $mark-underln;
+}
+
+markup.inserted {
+    foreground: $mark-insert;
+    background: $mark-insert-bg;
+}
+
+markup.deleted {
+    foreground: $mark-del;
+    background: $mark-del-bg;
+}
+

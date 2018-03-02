@@ -1,0 +1,92 @@
+@name "Niji Smile";
+@semanticClass "Niji.Smile.light";
+@colorSpaceName "sRGB";
+
+
+@import "colors/ms";
+@import "template/var";
+
+
+$mainbg: #fafafa;
+$mainfg: #000;
+
+$caret: #000;
+$selection: "#50505025";
+
+$comment: #919191;
+$commentStyle: italic;
+
+$cosnt-num: $miya;
+$const-lang: $akane;
+$const-esc: $tamaki;
+$const-placeholder: $kana;
+$const-other: $chizuru;
+
+$const-var: $mainfg;
+
+$ent-name: $yayoi;
+$ent-class: $kaori;
+$ent-type: $yayoi;
+$ent-inh-class: $yuriko;
+$ent-function: $chihaya;
+
+$ent-tag: $minako;
+$ent-section: $fuka;
+$ent-attr: $anna;
+
+$invalid: $hinata;
+$illegalbg: $iku;
+$illegalfg: $karen;
+$deprecatedbg: $iku;
+$deprecatedfg: $haruka;
+
+$keyword-fg: $julia;
+$keyword-control: $julia;
+$keyword-operator: $azusa;
+
+$punct-keyword: $azusa;
+$punct-string: $takane;
+$punct-var: $chihaya;
+$punct-exp: $takane;
+
+$storage-type: $yayoi;
+$storage-modifier: $yayoi;
+
+$string-fg: $shizuka;
+$string-regexp: $kotoha;
+$string-quoted: $shizuka;
+
+$support-fg: $yayoi;
+$support-const: $kana;
+$support-module: $momoko;
+$support-function: $anna;
+$support-class: $yuriko;
+$support-type: $yayoi;
+
+$var-parameter: $hibiki;
+$var-function: $chihaya;
+$var-lang: $takane;
+
+$meta-func-call: $chihaya;
+
+
+// $mark-head: $shizuka;
+$mark-list: $umi;
+
+// $mark-bold: $kotoha;
+// $boldStyle: bold;
+
+// $mark-italic: $kotoha;
+// $italicStyle: italic;
+
+// $mark-underln: $kotoha;
+
+// $mark-insert: $kotoha;
+// $mark-insert-bg: $megumi;
+
+// $mark-del: $sayoko;
+// $mark-del-bg: $megumi;
+
+
+
+@import "template/main";

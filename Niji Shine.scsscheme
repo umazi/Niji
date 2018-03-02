@@ -1,0 +1,13 @@
+@name "Niji Shine";
+@semanticClass "Niji.Shine.dark";
+@colorSpaceName "sRGB";
+
+
+@import "colors/ms";
+@import "template/var";
+
+
+$mainbg: #353541;
+
+
+@import "template/main";

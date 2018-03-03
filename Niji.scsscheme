@@ -1,8 +1,0 @@
-@name "Niji";
-@semanticClass "Niji.dark";
-@colorSpaceName "sRGB";
-
-
-@import "colors/ms";
-@import "template/var";
-@import "template/main";

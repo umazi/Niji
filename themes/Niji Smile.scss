@@ -1,10 +1,11 @@
-@name "Niji Smile";
-@semanticClass "Niji.Smile.light";
-@colorSpaceName "sRGB";
+// @name "Niji Smile";
+// @semanticClass "Niji.Smile.light";
+// @author "";
+// @colorSpaceName "sRGB";
 
 
 @import "colors/ms";
-@import "template/var";
+@import "templates/var";
 
 
 $mainbg: #fafafa;
@@ -89,4 +90,4 @@ $mark-list: $umi;
 
 
 
-@import "template/main";
+@import "templates/main";

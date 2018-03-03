@@ -1,0 +1,55 @@
+{
+    "name": "niji",
+    "displayName": "Niji",
+    "version": "0.2.0",
+    "description": "color scheme",
+    "author": "umazi",
+    "license": "MIT",
+    "publisher": "umazi",
+    "engines": {
+        "vscode": "^1.20.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "scripts": {
+        "build": "node ./build.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/umazi/Niji.git"
+    },
+    "keywords": [
+        "theme",
+        "niji"
+    ],
+    "bugs": {
+        "url": "https://github.com/umazi/Niji/issues"
+    },
+    "homepage": "https://github.com/umazi/Niji",
+    "icon": "assets/icon.png",
+    "contributes": {
+        "themes": [
+            {
+                "label": "Niji",
+                "uiTheme": "vs-dark",
+                "path": "./release/vscTheme/Niji.json"
+            },
+            {
+                "label": "Niji Shine",
+                "uiTheme": "vs-dark",
+                "path": "./release/vscTheme/Niji Shine.json"
+            },
+            {
+                "label": "Niji Smile",
+                "uiTheme": "vs",
+                "path": "./release/vscTheme/Niji Smile.json"
+            }
+        ]
+    },
+    "devDependencies": {
+        "json-css": "^1.5.6",
+        "node-sass": "^4.7.2",
+        "plist": "^2.1.0"
+    }
+}

@@ -1,0 +1,35 @@
+{
+  "niji": {
+    "file": "./themes/Niji.scss",
+    "info": {
+      "colorspacename": "sRGB",
+      "name": "Niji",
+      "semanticclass": "Niji.dark"
+    },
+    "workbenchdefault": "./workbench/niji.json",
+    "workbench": "./workbench/niji.json",
+    "type": "dark"
+  },
+  "niji-shine": {
+    "file": "./themes/Niji Shine.scss",
+    "info": {
+      "colorspacename": "sRGB",
+      "name": "Niji Shine",
+      "semanticclass": "Niji.Shine.dark"
+    },
+    "workbenchdefault": "./workbench/niji.json",
+    "workbench": "./workbench/niji-shine.json",
+    "type": "dark"
+  },
+  "niji-smile": {
+    "file": "./themes/Niji Smile.scss",
+    "info": {
+      "colorspacename": "sRGB",
+      "name": "Niji Smile",
+      "semanticclass": "Niji.Smile.light"
+    },
+    "workbenchdefault": "./workbench/niji.json",
+    "workbench": "./workbench/niji-smile.json",
+    "type": "light"
+  }
+}

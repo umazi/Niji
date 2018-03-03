@@ -1,0 +1,28 @@
+{
+    "editor.background": "#202122",
+    "editor.foreground": "#cccccc",
+    "editor.lineHighlightBackground": "#aaaaaa25",
+    "editor.selectionBackground": "#aaaaaa25",
+    "editorLineNumber.foreground": "#888888",
+
+    "editorCursor.background": "#ffffff00",
+    "editorCursor.foreground": "#ffffff37",
+
+    "statusBar.background": "#111111",
+    "statusBar.noFolderBackground": "#111111",
+    "statusBar.debuggingBackground": "#111111",
+    "statusBar.foreground": "#cccccc",
+
+    "activityBar.foreground": "#ffffff",
+
+    "panelTitle.activeBorder": "#ea5b76",
+
+    "pickerGroup.border": "#6495cf",
+    "pickerGroup.foreground": "#6495cf",
+
+    "list.focusBackground": "#393939",
+
+    "list.activeSelectionBackground": "#393939",
+    "list.inactiveSelectionBackground": "#303030",
+    "list.hoverBackground": "#303030"
+}

@@ -1,0 +1,24 @@
+{
+    "editor.background": "#353541",
+
+    "statusBar.background": "#1f1f25",
+    "statusBar.noFolderBackground": "#1f1f25",
+    "statusBar.debuggingBackground": "#1f1f25",
+    "statusBar.foreground": "#cccccc",
+    "statusBar.border": "#42424e",
+
+    "sideBar.border": "#42424e",
+    "sideBar.background": "#1f1f25",
+
+    "activityBar.border": "#42424e",
+    "activityBar.background": "#1f1f25",
+    "activityBar.foreground": "#ffffff",
+
+    "panelTitle.activeBorder": "#ea5b76",
+
+    "list.focusBackground": "#464646",
+
+    "list.activeSelectionBackground": "#2c2c35",
+    "list.inactiveSelectionBackground": "#24242b",
+    "list.hoverBackground": "#24242b"
+}

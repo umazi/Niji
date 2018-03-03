@@ -1,0 +1,10 @@
+colors/**
+LEGACY/**
+release/tmTheme/**
+templates/**
+themes/**
+workbench/**
+TODO*
+build**
+meta**
+**/*.svg

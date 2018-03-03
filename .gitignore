@@ -1,1 +1,4 @@
 LEGACY/
+node_modules/
+
+**/*.vsix
